@@ -1,0 +1,34 @@
+body {
+    background-color:#EFE5E1;
+    background-image: url("flor.jpg");
+    background-repeat: no-repeat;
+    height: 100px;
+    background-size: 100% 750%;
+            
+  }
+  h1 { color: #E4AFB8;
+    font-family: dancing-family; 
+    font-size: 400%;}
+    @font-face {
+      font-family: dancing-family;
+      src: url("DancingScript-VariableFont_wght.ttf") format("truetype")
+      
+    }
+  h5{
+    color: #EFE5E1;
+  }
+    #list-ul{
+      color:#EFE5E1;
+    }
+    #welcome{
+      color: #303847;
+    }
+    #skills{
+      color: #303847;
+    }
+    #blog{
+      color: #303847;
+    }
+    nav ul li a {
+color: white;
+  }
