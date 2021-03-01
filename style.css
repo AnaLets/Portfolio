@@ -1,34 +1,100 @@
 body {
-    background-color:#EFE5E1;
-    background-image: url("flor.jpg");
-    background-repeat: no-repeat;
-    height: 100px;
-    background-size: 100% 750%;
-            
+  background-color: rgb(253, 251, 251);
+  background-image: url('https://www.news.gatech.edu/sites/default/files/pictures/feature_images/icon_math_1.gif');
+  background-repeat: no-repeat;
+  height: 100px;
+  background-size: 100%;
+  width: fit-content;
+  font-family: matrix, serif;
+
+  @font-face {
+    font-family: matrix, serif;
+    src: url('matrix.ttf') format('truetype');
   }
-  h1 { color: #E4AFB8;
-    font-family: dancing-family; 
-    font-size: 400%;}
-    @font-face {
-      font-family: dancing-family;
-      src: url("DancingScript-VariableFont_wght.ttf") format("truetype")
-      
-    }
-  h3{
-    color: #EFE5E1;
-  }
-    #list-ul{
-      color:#EFE5E1;
-    }
-    #welcome{
-      color: #303847;
-    }
-    #skills{
-      color: #303847;
-    }
-    #blog{
-      color: #303847;
-    }
-    nav ul li a {
-color: white;
-  }
+}
+#cabecalho {
+  position: fixed;
+  top: 0;
+  color: white;
+  width: 300px;
+}
+#titulo {
+  color: black;
+  margin-top: 0;
+  font-family: matrix, serif;
+  width: 900px;
+  font-size: 350%;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: matrix;
+  src: url('matrix.ttf') format('truetype');
+}
+#navigation {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  width: 300px;
+  font-size: 100%;
+  display: inline;
+  line-height: 10mm;
+  color: black;
+  font-family: matrix, serif;
+}
+#minha_foto {
+  width: 50%;
+  border-radius: 50%;
+  padding: 0%;
+  float: left;
+  display: inline-block;
+}
+.lessons {
+  margin-top: 50px;
+  margin-left: 270px;
+  width: 750px;
+  height: 190px;
+}
+.lessons-learned {
+  margin-left: 0;
+  margin-top: 50px;
+  display: inline-block;
+}
+#licoes_aprendidas {
+  columns: 2;
+  list-style-position: inside;
+}
+.lessons-to-be-learn {
+  margin-left: 0;
+  margin-top: 50px;
+  display: inline-block;
+}
+#licoes_a_aprender {
+  columns: 2;
+  list-style-position: inside;
+}
+h2 {
+  margin-left: 100px;
+}
+.lado-esquerdo {
+  float: left;
+  margin-left: 30%;
+  width: 33%;
+  display: inline-block;
+}
+.lado-direito {
+  float: right;
+  margin: 0 2%;
+  width: 33%;
+  display: inline-block;
+}
+#linkedin-logo {
+  height: 25px;
+}
+#github-logo {
+  height: 25px;
+}
+#rodape {
+  margin-top: 340px;
+  margin-left: 10px;
+}
